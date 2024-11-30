@@ -1,0 +1,32 @@
+
+/*
+#74B3CE
+#508991
+#172A3A
+#004346
+#09BC8A
+
+*/
+:root {
+    --carolina-blue: #74B3CE;
+    --munsell-blue: #508991;
+    --prussian-blue: #172A3A;
+    --midnight-green: #004346;
+    --mint: #09BC8A;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: var(--prussian-blue);
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
